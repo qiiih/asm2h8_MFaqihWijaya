@@ -1,0 +1,13 @@
+{
+	"server": {
+		"name": "CRUD Cinema Server",
+		"port": 3000
+	},
+	"postgres": {
+		"host": "localhost",
+		"port": "5432",
+		"user": "faqih",
+		"pass": "123",
+		"database": "cinema"
+	}
+}
