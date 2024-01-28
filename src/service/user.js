@@ -1,7 +1,6 @@
 class UserService {
-	constructor(userRepo, cryptoService) {
+	constructor(userRepo) {
 		this.userRepo = userRepo;
-		this.cryptoService = cryptoService;
 	}
 
 	async createUser(user) {
